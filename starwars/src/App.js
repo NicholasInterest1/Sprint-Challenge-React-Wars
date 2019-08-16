@@ -25,9 +25,9 @@ const [starWars, setStarWars] = useState([]);
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-        <div>
+        <div className="card-containment">
             {starWars.map(char => {
-                return <CardProducer char={char} />;
+                return <CardProducer key={char.name} char={char} />;
             })}
         </div>
     </div>

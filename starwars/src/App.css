@@ -8,5 +8,8 @@
 /* write your parent styles in here for your App.js */
 
 .card-containment {
-  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+     
 }
