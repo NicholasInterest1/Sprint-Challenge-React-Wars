@@ -41,5 +41,8 @@ export default function CardProducer(props) {
           <PStyled>Skin Tone: {props.char.skin_color}</PStyled>
           <PStyled>Films: {props.char.films.length}</PStyled>
       </Card>
+      
   );
 }
+
+
